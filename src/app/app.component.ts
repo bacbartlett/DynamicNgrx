@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { ChildComponent } from './child/child.component';
+import { CountComponent } from './count/count.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [ChildComponent, CountComponent],
   selector: 'myngapp-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

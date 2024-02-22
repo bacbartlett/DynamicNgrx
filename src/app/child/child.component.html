@@ -1,0 +1,7 @@
+<div>
+<p>Is showing letter component: {{showLetter}}</p>
+<button (click)="toggleLetter()">Toggle Letter</button>
+</div>
+@if (showLetter) {
+  <app-letter />
+}
